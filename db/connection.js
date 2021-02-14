@@ -14,8 +14,8 @@ async function main(){
 
       const db = client.db('inventory');
 
-      await dbOperations.insertItem(db, 'banana', 6);
-      await dbOperations.getItem(db, 'banana');
+      //await dbOperations.insertItem(db, 'banana', 6);
+      //await dbOperations.getItem(db, 'banana');
 
   } catch (e) {
       console.error(e);
